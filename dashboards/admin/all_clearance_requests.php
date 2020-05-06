@@ -39,17 +39,9 @@ include "../../session/auth_session.php";
         <td class='border border-success'>
           <form class='m-1' action='' method='post'>
             <button class='btn btn-success' name='" . $u . "' type='submit'>User Details</button>
-          </form>
-          <form class='m-1' action='' method='post'>
             <button class='btn btn-success' name='" . $u_1 . "' type='submit'>Forward</button>
-          </form>
-          <form class='m-1' action='' method='post'>
             <button class='btn btn-success' name='" . $u_2 . "' type='submit'>Feedback from Departments</button>
-          </form>
-          <form class='m-1' action='' method='post'>
             <button class='btn btn-success' name='" . $u_3 . "' type='submit'>Request Status</button>
-          </form>
-          <form class='m-1' action='' method='post'>
             <button class='btn btn-success' name='" . $u_4 . "' type='submit'>Generate Receipt</button>
           </form>
         </td></tr>";
